@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    color: #fff;
+    font-weight: 600;
+}
+
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+
+
+#banner
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 10%;
+    color: #fff;
+}
+
+.banner-image
+{
+    
+}
+
+.fa-play-circle
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+.fa-icons
+{
+    color: #f86d;
+}
+
+
+
+#service
+{
+    padding: 10% 10%;
+}
+
+.service-item{
+    padding: 5%;
+} 
+
+#service .btn-primary
+{
+    box-shadow: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+
+#aboutus
+{
+    background-color: lightgray;
+    padding: 7% 10%;
+}
+
+.about-why-choose
+{
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.aboutus-item
+{
+    padding-bottom: 10%;
+}
