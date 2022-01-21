@@ -1,0 +1,71 @@
+
+
+#title
+{
+    color: white;
+    background-color: #212529;
+}
+
+.navigation-bar
+{
+    padding: 1% 10%;
+}
+.grid-system-title
+{
+    padding: 7% 10%;
+}
+
+.title-image-opacity
+{
+    opacity: 0.05;
+}
+
+#signup-section
+{
+    padding: 3% 10%;
+    color: white;
+}
+
+
+.sign-up-section-padding-0
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+#card-section
+{
+    padding: 5% 10%;
+    color: white;
+}
+
+.card-section-element
+{
+    padding: 4%;
+}
+
+#fundamental-section
+{
+    padding: 5% 10%;
+}
+
+
+#research-section
+{
+    color: white;
+    padding: 5% 10%;
+    background-color: #212529;;
+}
+
+
+#frequency-ask
+{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.frequency-ask-heading
+{
+    background-color: yellow;
+}
