@@ -7,14 +7,14 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Text Alignment & Display</title>
+    <title>Navbar</title>
 
 
 </head>
 <body>
     
     <header>
-        <h1 class="display-3 text-center p-5">Basic Typography</h1>
+        <h1 class="display-3 text-center p-5">Navbar</h1>
        
         <div class="container">
             <div class="row">
@@ -88,135 +88,406 @@
     </header>
 
 
+    <br>
+    <br>
+
+
+        <!-- SIMPLE NAVBAR  -->
+    <h1 class="text-center">SIMPLE NAVBAR</h1>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+    
+            <ul class="navbar-nav">
+                 <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  
+    <br>
+    <br>
+    <br>
+    <br>
+
+      <!-- NAVBAR WITH RESPONSIVE TOGGLE  -->
+    <h1 class="text-center">NAVBAR WITH RESPONSIVE TOGGLE</h1>
+    <br>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+                  
+                  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+                 
+            </div>
+    </nav>
+ 
+
+    <br>
+    <br>
+    <br>
+    <br>
+     <!-- NAVBAR WITH FORM  -->
+    <h1 class="text-center">NAVBAR WITH FORM</h1>
+    <br>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+                  
+                  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                
+                <form class="d-flex ms-auto">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+            </div>
+                 
+            </div>
+    </nav>
+      
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="text-center">NAVBAR WITH DROPDOWNS</h1>
+    <br>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Home</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">About</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">Services</a>
+                   </li>
+                   
+                   <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Link 1</a>
+                            <a href="#" class="dropdown-item">Link 2</a>
+                            <a href="#" class="dropdown-item">Link 3</a>
+                            <a href="#" class="dropdown-item">Link 4</a>
+                        </div>
+                   </li>
+
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">Contact</a>
+                   </li>
+               </ul>
+            </div>
+           
+        </div>
+    </nav>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <h1 class="text-center">COLORS</h1>
+    <!-- COLORS  -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent3" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent3">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Home</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">About</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">Services</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">Contact</a>
+                   </li>
+               </ul>
+            </div>
+           
+        </div>
+    </nav> 
+
+    <br>
+    <br>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent3" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent3">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Home</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">About</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">Services</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">Contact</a>
+                   </li>
+               </ul>
+            </div>
+           
+        </div>
+    </nav>
+
+    <br>
+    <br>
+ <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent3" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent3">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Home</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">About</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">Services</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="#">Contact</a>
+                   </li>
+               </ul>
+            </div>
+           
+        </div>
+    </nav>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+  <!-- FIXED TOP  -->
+  <!-- <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
     <div class="container">
-        <!-- ###########################################START###########################################  -->
-
-        <h1 class="text-center">MB MARGIN BOTTOM</h1> 
-        <h1 class="bg-success mb-0">Margin Bottom 0</h1>
-        <h1 class="bg-success mb-1">Margin Buttom 1</h1>
-        <h1 class="bg-success mb-2">Margin Buttom 2</h1>
-        <h1 class="bg-success mb-3">Margin Buttom 3</h1>
-        <h1 class="bg-success mb-4">Margin Buttom 4</h1>
-        <h1 class="bg-success mb-5">Margin Buttom 5</h1>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- MT MARGIN TOP  -->
-        <h1 class="text-center">MT MARGIN TOP</h1>
-        <br>
-        <h1 class="bg-primary mt-0">Margin Top 0</h1>
-        <h1 class="bg-primary mt-1">Maring Top 1</h1>
-        <h1 class="bg-primary mt-2">Margin Top 2</h1>
-        <h1 class="bg-primary mt-3">Margin Top 3</h1>
-        <h1 class="bg-primary mt-4">Margin Top 4</h1>
-        <h1 class="bg-primary mt-5">Margin Top 5</h1>
+        <a class="navbar-brand" href="#">Navbar Fixed Top</a>
+    </div>
+  </nav> -->
 
 
+    <!-- FIXED BOTTOM  -->
 
-        <br>
-        <br>
-        <br>
-        <br>
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar Fixed Bottom</a>
+        </div>
+    </nav>
+   
 
-        
-        <!-- ML & MR -->
-        <h1 class="text-center">ML and MR</h1>
-        <p>
-            <span class="mr-5 bg-success">Margin Right 5</span>Lorem ipsum dolor sit amet . Aliquam ducimus aliquid
-            <span class="ml-5 bg-success">Margin Left 3</span>
-        </p>
+    <!-- STICKY TOP  -->
+    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark bg-gradient">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar Sticky Top</a>
+        </div>
+    </nav>
 
 
-        <br>
-        <br>
-        <br>
-        <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-        <!-- MX MARGIN LEFT RIGHT  -->
-        <h1 class="text-center">MX MARGIN LEFT RIGHT</h1>
-        <p>Lorem, ipsum.
-            <span class="mx-5 bg-success">Margin Left & Right 5</span>, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, architecto.
-        </p>
 
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- MY MARGIN TOP BOTTOM  -->
-        <h1 class="text-center">MY MARGIN TOP BOTTOM</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab.</p>
-        <p class="my-5 bg-success">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, qui.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, provident!</p>
+    <div class="container">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
 
         <br>
         <br>
         <br>
-        <br>
 
-        <!-- BLANK- ALL SIDES -->
-        <h1 class="text-center">BLANK ALL SIDES</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, neque.</p>
-        <p class="m-5 bg-success">Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ut molestias itaque aliquam reiciendis nemo?</p>
-
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
 
         <br>
         <br>
         <br>
         <br>
 
-        <!-- PB PADDING BOTTOM  -->
-        <h1 class="text-center">PB PADDING BOTTOM</h1>
-        <br>
-        <p class="pb-0 bg-warning">Padding Bottom 0</p>
-        <p class="pb-1 bg-warning">Padding Bottom 1</p>
-        <p class="pb-2 bg-warning">Padding Bottom 2</p>
-        <p class="pb-3 bg-warning">Padding Bottom 3</p>
-        <p class="pb-4 bg-warning">Padding Bottom 4</p>
-        <p class="pb-5 bg-warning">Padding Bottom 5</p>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- PT PADDING TOP  -->
-        <h1 class="text-center">PT PADDING TOP</h1>
-        <br>
-        <p class="pt-0 bg-warning">Padding Top 0</p>
-        <p class="pt-1 bg-warning">Padding Top 1</p>
-        <p class="pt-2 bg-warning">Padding Top 2</p>
-        <p class="pt-3 bg-warning">Padding Top 3</p>
-        <p class="pt-4 bg-warning">Padding Top 4</p>
-        <p class="pt-5 bg-warning">Padding Top 5</p>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- PL & PR  -->
-        <h1 class="text-center">PL & PR</h1>
-        <p>
-            <span class="bg-warning pr-5" style="padding-right: 5rem;">Padding Right 5</span> Lorem ipsum dolor sit amet.
-            <span class="bg-warning" style="padding-left: 3rem;">Padding left 3</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nihil.
-        </p>
+        <ul class="nav nav-pills justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
         
         <br>
         <br>
         <br>
         <br>
 
-        <!-- PX PADDING LEFT RIGHT  -->
-        <h1 class="text-center">PX PADDING LEFT RIGHT</h1>
-        <p>Lorem, ipsum.
-            <span class="bg-warning px-5">Padding left & right</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, pariatur.
-        </p>
+
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 4</a>
+            </li>
+        </ul>
+        
+
+        <br>
+        <br>
+        <br>
+
+    <div class="container">
+
+
+
+
+        <!-- NAVBAR WITH RESPONSIVE TOGGLE  -->
+
+        <!-- NAVBAR WITH FORM  -->
+
+        <!-- NAVBAR WITH DROPDOWN  -->
+
+        <!-- COLORS  -->
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- FIXED TOP  -->
+
+        <!-- FIXED BOTTOM  -->
+
+        <!-- FIXED TOP  -->
 
 
         <br>
@@ -224,29 +495,40 @@
         <br>
         <br>
 
+        <div class="container">
+            <!-- NAVS  -->
+           
 
-        <!-- PY PADDING TOP BOTTOM  -->
-        <h1 class="text-center">PY PADDING TOP BOTTOM</h1>
-        <p class="bg-warning py-5">Padding Top & Bottom 5</p>
+            <!-- HORIZONTAL ALIGN  -->
 
-        <br>
-        <br>
-        <br>
-        <br>
+            <!-- RIGHT ALIGN  -->
+
+            <br>
+            <br>
+
+            <!-- VERTICAL  -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!-- FILL & JUSTIFY  -->
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!-- WITH DROPDOWNS -->
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
 
 
-        <!-- ALL SIDES  -->
-        <h1 class="text-center">ALL SIDES</h1>
-        <P class="bg-warning p-5">Padding all sides 5</P>
 
-        <br> 
-        <br>
-        <br>
-        <br>
-
-        <!-- HORIZONTAL CENTERING  -->
-        <h1 class="text-center">HORIZONTAL CENTERING</h1>
-        <div class="bg-info text-center" >Horizontal Centering </div>
     </div>
     
 
