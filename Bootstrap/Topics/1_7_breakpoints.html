@@ -7,14 +7,90 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Text Alignment & Display</title>
+    <title>CSS Breakpoints</title>
 
+
+    <style>
+        
+        /* Small Devices (landscape phones) */
+        @media(min-width: 576px)
+        {   
+            body{
+                background-color: red;
+            }
+        } 
+
+
+        /* Medium Devices (Tables) */
+        @media(min-width: 768px)
+        {
+            body{
+                background-color: blue;
+            }
+        }
+
+
+
+        /* Large Devices (desktops) */
+        @media(min-width: 992px)
+        {   
+            body{
+                background-color: green;
+            }
+        }
+
+
+        /* Extra large devices  */
+        @media (min-width: 1200px)
+        {
+            body{
+                background-color: yellow;
+            }
+        }
+
+        /* The given screen size of smaller 
+        
+        Extra small devices (portrait phones) */
+        @media(max-width: 575px)
+        {
+            body{
+                background-color: coral;
+            }
+        }
+
+/* 
+        /* Small devicess */
+        @media(max-width: 766px)
+        {
+            body{
+                background-color: ;
+            }
+        }
+
+
+
+        // Medium devices 
+        @media(max-width: 991px)
+        {
+            body{
+
+            }
+        }
+
+        // Large Device 
+        @media( max-width: 1199px)
+        {
+
+        } */
+
+    </style>
+    
 
 </head>
 <body>
     
     <header>
-        <h1 class="display-3 text-center p-5">Basic Typography</h1>
+        <h1 class="display-3 text-center p-5">CSS Breakpoints</h1>
        
         <div class="container">
             <div class="row">
@@ -87,121 +163,9 @@
         <hr>
     </header>
 
-    <div class="container">
 
-        <!-- ####################################START HERE############################### -->
-        <br>
-        <br>
-        <br>
-
-        <!-- JUSTIFY -->
-        <h3 class="text-center">JUSTIFY PARAGRAPH: .Inline CSS(text-align: justify)</h3>
-        <p class="" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis exercitationem libero distinctio debitis maxime tempora natus, placeat odio deleniti omnis. Quaerat dicta odit et unde fugit incidunt laboriosam officia sed, earum dolorum a eos sint quia autem. Nesciunt, eligendi quibusdam alias facere aut delectus fugit explicabo iste quaerat vel neque, cumque doloremque. Vero facilis saepe aspernatur corporis! Nobis obcaecati dolor laborum asperiores enim porro id vitae eveniet. Et recusandae dolorem sapiente corrupti enim inventore, nobis tempore rem id, aliquid commodi a nam laudantium ab cum hic facilis explicabo in sequi dicta! Assumenda libero soluta excepturi ducimus enim necessitatibus quasi. Sapiente dolore ex maxime ratione magni voluptate, aspernatur aut consequuntur odit recusandae quaerat fugiat, doloribus modi. Recusandae, beatae distinctio. Eveniet, excepturi ipsa. Esse atque vero explicabo consequatur ut assumenda magnam nobis voluptatem modi saepe! Voluptatem ut quod, officia quibusdam obcaecati perspiciatis asperiores cupiditate, rerum id consectetur eius libero iure commodi recusandae!</p>
-
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-
-
-        <!-- Alignment  -->
-        <h3 class="text-center">Alignment</h3>
-        <p class="text-start">Text aligned left: .text-start</p>
-        <p class="text-center">Text aligned center: .text-center</p>
-        <p class="text-end">Text aligned right: .text-end</p>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-
-
-        <!-- RESPONSIVE ALIGN  -->
-        <h3 class="text-center">RESPONSIVE ALIGN</h3>
-        <p class="text-sm-end">Right aligned on small or larger: .text-ms-end</p>
-        <p class="text-md-end">Right aligned on medium or larger: .text-md-end</p>
-        <p class="text-lg-end">Right aligned on large or larger: .text-lg-end</p>
-        <p class="text-xl-end">Right aligned on xl or larger: .text-xl-end</p>
-        <br>
-        <p class="text-sm-start">Left aligned text on small or larger</p>
-        <p class="text-md-start">Left aligned text on medium or larger</p>
-        <p class="text-lg-start">Left aligned text on large or larger</p>
-        <p class="text-xl-start">Left aligned text on extra large or widder</p>
-        <br>
-        <p class="text-sm-center">Center aligned text on small or larger</p>
-        <p class="text-md-center">Center aligned text on medium or larger</p>
-        <p class="text-lg-center">Center aligned text on large or wider</p>
-        <p class="text-xl-center">Center aligned text on extra large or wider</p>
-
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- VERTICAL ALIGNMENT -->
-        <h3 class="text-center">VERTICAL ALIGNMENT</h3>
-        <br>
-        <span class="align-baseline">.align baseline</span>
-        <span class="align-top">top</span>
-        <span class="align-middle">middle</span>
-        <span class="align-bottom">bottom</span>
-        <span class="align-text-top">text-top</span>
-        <span class="align-text-bottom">text-bottom</span>
-        
-      
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-        <!-- TURN BLOCK TO INLINE  -->
-        <h3 class="text-center">TURN BLOCK TO INLINE</h3>
-        <br>
-        <h1 class="d-inline bg-success">Hello: .d-inline</h1>
-        <h1 class="d-inline bg-success">GoodBy: .d-inline</h1>
-
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- TURN INLINE TO BLOCK  -->
-        <h1 class="text-center">TURN INLINE TO BLOCK</h1>
-        <br>
-        <span class="d-block bg-primary">Block: .d-block</span>
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-
-        <!-- INLINE BLOCK  -->
-        <h1 class="text-center">INLINE BLOCK: .d-inline-block</h1>
-        <br>
-        <div class="d-inline-block bg-warning">
-            <h3>Hello</h3>
-            This is inline
-        </div>
-        <div class="d-inline-block bg-warning">
-            <h3>Hello</h3>
-            This is inline 2
-        </div>
-
-        <br>
-        <br>
-        <hr>
-
-    </div>
+   
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
