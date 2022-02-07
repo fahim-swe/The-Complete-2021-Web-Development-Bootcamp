@@ -7,14 +7,14 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Text Alignment & Display</title>
+    <title>Grid System</title>
 
 
 </head>
 <body>
     
     <header>
-        <h1 class="display-3 text-center p-5">Basic Typography</h1>
+        <h1 class="display-3 text-center p-5">Grid System</h1>
        
         <div class="container">
             <div class="row">
@@ -85,169 +85,126 @@
         </div>
 
         <hr>
+
+
     </header>
 
 
+
     <div class="container">
-        <!-- ###########################################START###########################################  -->
+        
 
-        <h1 class="text-center">MB MARGIN BOTTOM</h1> 
-        <h1 class="bg-success mb-0">Margin Bottom 0</h1>
-        <h1 class="bg-success mb-1">Margin Buttom 1</h1>
-        <h1 class="bg-success mb-2">Margin Buttom 2</h1>
-        <h1 class="bg-success mb-3">Margin Buttom 3</h1>
-        <h1 class="bg-success mb-4">Margin Buttom 4</h1>
-        <h1 class="bg-success mb-5">Margin Buttom 5</h1>
+        <!-- RESPONSIVE GRID  -->
+        <div class="">
+            <div class="border border-primary border-2 p-3">
+                <p class="text-center">12 Col on extra large device</p>
+                <p class="text-center">6 Col on large device</p>
+                <p class="text-center">4 Col on medium device</p>
+                <p class="text-center">3 Col on small device</p>
+                <p class="text-center">2 Col on extra small device</p>
+                <div class="row mt-5 border border-warning border-3">
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 1</div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 2</div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 3</div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 4</div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 5</div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 6</div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 7</div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 8</div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 9</div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 10</div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 11</div>
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 border border-danger border-3">Col 12</div>
+                </div>
+            </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- MT MARGIN TOP  -->
-        <h1 class="text-center">MT MARGIN TOP</h1>
-        <br>
-        <h1 class="bg-primary mt-0">Margin Top 0</h1>
-        <h1 class="bg-primary mt-1">Maring Top 1</h1>
-        <h1 class="bg-primary mt-2">Margin Top 2</h1>
-        <h1 class="bg-primary mt-3">Margin Top 3</h1>
-        <h1 class="bg-primary mt-4">Margin Top 4</h1>
-        <h1 class="bg-primary mt-5">Margin Top 5</h1>
-
-
-
-        <br>
-        <br>
-        <br>
-        <br>
+            <div class="border border-success border-2 mt-5">
+                <div class="row p-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-secondary border-3">Col1 </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-secondary border-3">Col2 </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-secondary border-3">Col3 </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-secondary border-3">Col4 </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-secondary border-3">Col5 </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 border border-secondary border-3">Col6 </div>
+                </div>
+            </div>
+        </div>
 
         
-        <!-- ML & MR -->
-        <h1 class="text-center">ML and MR</h1>
-        <p>
-            <span class="mr-5 bg-success">Margin Right 5</span>Lorem ipsum dolor sit amet . Aliquam ducimus aliquid
-            <span class="ml-5 bg-success">Margin Left 3</span>
-        </p>
+
+        <!-- EQUAL WIDTH  -->
+        <div class="row pt-5">
+            <div class="col border border-primary border-3">Equal Width</div>
+            <div class="col border border-primary border-3">Equal Width</div>
+            <div class="col border border-primary border-3">Equal Width</div>
+            <div class="col border border-primary border-3">Equal Width</div>
+        </div>
+
+        <!-- EQUAL WIDTH MULTI ROW  -->
+        <div>
+            <div>Equal Width Multi</div>
+            <div>Equal Width Multi</div>
+            <div></div>
+            <div>Equal Width Multi</div>
+            <div>Equal Width Multi</div>
+        </div>
+
+        <!-- AUTO LAYOUT  -->
+        <div>
+            <div>Auto Layout</div>
+            <div>Auto Layout</div>
+            <div>Auto Layout</div>
+        </div>
+
+        EQUAL WIDTH STACKED
+        <div>
+            <div>Equal Width Stack</div>
+            <div>Equal Width Stack</div>
+            <div>Equal Width Stack</div>
+        </div>
+
+        ORDERING 
+        <div>
+            <div>First</div>
+            <div>Second</div>
+            <div>Third</div>
+        </div>
 
 
-        <br>
-        <br>
-        <br>
-        <br>
+        OFFSETIING 
 
-        <!-- MX MARGIN LEFT RIGHT  -->
-        <h1 class="text-center">MX MARGIN LEFT RIGHT</h1>
-        <p>Lorem, ipsum.
-            <span class="mx-5 bg-success">Margin Left & Right 5</span>, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, architecto.
-        </p>
+        <div>
+            <!-- 6 Column divs, offset by 3 -->
+            <div>.col-md-6 .offset-md-3</div>
+        </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
+        <div>
+            <!-- 2 4 column divs, the second offset by 4 -->
+            <div>.col-md-4</div>
+            <div>.col-md-4 .offset-md-4</div>
+        </div>
 
-        <!-- MY MARGIN TOP BOTTOM  -->
-        <h1 class="text-center">MY MARGIN TOP BOTTOM</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab.</p>
-        <p class="my-5 bg-success">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, qui.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, provident!</p>
+        <div>
+            <div>.col-md-3 .offset-md-3</div>
+            <div>.col-md-3 .offset-md-3</div>
+        </div>
 
+        <!-- NESTING  -->
+        <div>
+            <div>
+                Level: 1 .col-md-9
+                <div>
+                    <div>Level 2: .col-8 .col-sm-6</div>
+                    <div>Level 2: .col-4 .col-sm-6</div>
+                </div>
+            </div>
+        </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
+        <div>
 
-        <!-- BLANK- ALL SIDES -->
-        <h1 class="text-center">BLANK ALL SIDES</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, neque.</p>
-        <p class="m-5 bg-success">Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ut molestias itaque aliquam reiciendis nemo?</p>
-
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- PB PADDING BOTTOM  -->
-        <h1 class="text-center">PB PADDING BOTTOM</h1>
-        <br>
-        <p class="pb-0 bg-warning">Padding Bottom 0</p>
-        <p class="pb-1 bg-warning">Padding Bottom 1</p>
-        <p class="pb-2 bg-warning">Padding Bottom 2</p>
-        <p class="pb-3 bg-warning">Padding Bottom 3</p>
-        <p class="pb-4 bg-warning">Padding Bottom 4</p>
-        <p class="pb-5 bg-warning">Padding Bottom 5</p>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- PT PADDING TOP  -->
-        <h1 class="text-center">PT PADDING TOP</h1>
-        <br>
-        <p class="pt-0 bg-warning">Padding Top 0</p>
-        <p class="pt-1 bg-warning">Padding Top 1</p>
-        <p class="pt-2 bg-warning">Padding Top 2</p>
-        <p class="pt-3 bg-warning">Padding Top 3</p>
-        <p class="pt-4 bg-warning">Padding Top 4</p>
-        <p class="pt-5 bg-warning">Padding Top 5</p>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- PL & PR  -->
-        <h1 class="text-center">PL & PR</h1>
-        <p>
-            <span class="bg-warning pr-5" style="padding-right: 5rem;">Padding Right 5</span> Lorem ipsum dolor sit amet.
-            <span class="bg-warning" style="padding-left: 3rem;">Padding left 3</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nihil.
-        </p>
-        
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- PX PADDING LEFT RIGHT  -->
-        <h1 class="text-center">PX PADDING LEFT RIGHT</h1>
-        <p>Lorem, ipsum.
-            <span class="bg-warning px-5">Padding left & right</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, pariatur.
-        </p>
-
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-        <!-- PY PADDING TOP BOTTOM  -->
-        <h1 class="text-center">PY PADDING TOP BOTTOM</h1>
-        <p class="bg-warning py-5">Padding Top & Bottom 5</p>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-        <!-- ALL SIDES  -->
-        <h1 class="text-center">ALL SIDES</h1>
-        <P class="bg-warning p-5">Padding all sides 5</P>
-
-        <br> 
-        <br>
-        <br>
-        <br>
-
-        <!-- HORIZONTAL CENTERING  -->
-        <h1 class="text-center">HORIZONTAL CENTERING</h1>
-        <div class="bg-info text-center" >Horizontal Centering </div>
+        </div>
     </div>
+    
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

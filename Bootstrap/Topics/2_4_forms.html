@@ -7,14 +7,14 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Text Alignment & Display</title>
+    <title>Froms</title>
 
 
 </head>
 <body>
     
     <header>
-        <h1 class="display-3 text-center p-5">Basic Typography</h1>
+        <h1 class="display-3 text-center p-5">Froms</h1>
        
         <div class="container">
             <div class="row">
@@ -87,136 +87,145 @@
         <hr>
     </header>
 
+    <br>
+    <br>
 
     <div class="container">
-        <!-- ###########################################START###########################################  -->
 
-        <h1 class="text-center">MB MARGIN BOTTOM</h1> 
-        <h1 class="bg-success mb-0">Margin Bottom 0</h1>
-        <h1 class="bg-success mb-1">Margin Buttom 1</h1>
-        <h1 class="bg-success mb-2">Margin Buttom 2</h1>
-        <h1 class="bg-success mb-3">Margin Buttom 3</h1>
-        <h1 class="bg-success mb-4">Margin Buttom 4</h1>
-        <h1 class="bg-success mb-5">Margin Buttom 5</h1>
+        <!-- FORM  -->
+        <h1 class="text-center">FORM</h1>
+        <br>
+        <form>
+            <!-- TEXT FIELD GROUPS  -->
+            <div class="input-group mb-3">
+                <label class="me-3 form-label" for="name">Name</label>
+                <input class="form-control" type="text" id="name" placeholder="Enter name">
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="form-label" for="email">Email Address</label>
+                <input  class="form-control form-control-lg"  type="email" id="email" placeholder="Enter email" >
+                <small class="form-text text-muted">
+                    Your email will not be shared
+                </small>
+            </div>
+
+            <div class="form-group mb-3">
+                <label  class="form-label"  for="Company" >Company</label>
+                <input  class="form-control form-control-sm" type="text" id="company" placeholder="Enter Company">
+            </div>
+
+            <div class="form-group mb-3">
+                <label  class="form-label"  for="phone">Phone</label>
+                <input  class="form-control" type="number" id="phoneNumber" placeholder="Enter Phone number">
+            </div>
+
+            <div class="form-group mb-3">
+                <label  class="form-label"  for="Password">Password</label>
+                <input  class="form-control"type="password" id="password" placeholder="Enter Password" readonly>
+            </div>
+
+
+            <!-- SELECT  -->
+
+            <div class="form-group mb-3">
+                <label  class="form-label"  for="gender">Gender</label>
+                <select class="form-select form-control" id="gender">
+                    <option selected>Choose...</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+
+            <!-- TEXT AREA -->
+            <div class="form-group mb-3">
+                <label   class="form-label"  for="message" >Message</label>
+                <textarea class="form-control" id="message" rows="5" ></textarea>
+            </div>
+
+            <!-- FILE INPUT -->
+            <div class="mb-3">
+                <div>
+                    <label  class="form-label"  for="file">File input</label>
+                </div>
+               
+                <input class="form-control" type="file" id="file">
+                <small class="form-text text-muted" id="fileHelp">Max 3mb size</small>
+            </div>
+
+            <!-- CUSTOM FILE INPUT  -->
+            <div class="input-group mb-3">
+                <input class="form-control" type="file" id="myfile">
+                <label  class="form-label input-group-text" for="myfile">Choose file</label>
+            </div>
+
+            <br>
+            <br>
+
+            <!-- RANGE  -->
+            <div class="input-group">
+                <label  class="form-label" for="membership">Membership Level</label>
+                <input class="form-range" type="range"  min="0" max="5" step="1" value="1">
+            </div>
+
+
+            <br>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+        </form>
+
+
 
         <br>
         <br>
         <br>
         <br>
 
-        <!-- MT MARGIN TOP  -->
-        <h1 class="text-center">MT MARGIN TOP</h1>
-        <br>
-        <h1 class="bg-primary mt-0">Margin Top 0</h1>
-        <h1 class="bg-primary mt-1">Maring Top 1</h1>
-        <h1 class="bg-primary mt-2">Margin Top 2</h1>
-        <h1 class="bg-primary mt-3">Margin Top 3</h1>
-        <h1 class="bg-primary mt-4">Margin Top 4</h1>
-        <h1 class="bg-primary mt-5">Margin Top 5</h1>
 
 
+        <!-- INLINE FORM  -->
+        <h1 class="text-center">INLINE FORM</h1>
+        <br>
+        <form class="row gap-2">
+            
+            <input class="col form-control" type="text" id = "username" placeholder="Enter Username">
+            <input class="col form-control" type="password" id="password" placeholder="Enter Password">
+
+            <div class="col-3 form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Remember me
+                </label>
+               
+            </div>
+
+            <div class="col-1">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+           
+        </form>
+
 
         <br>
         <br>
         <br>
         <br>
 
+        <!-- FORM ROW -->
+        <h1 class="text-center">FORM ROW</h1> 
         
-        <!-- ML & MR -->
-        <h1 class="text-center">ML and MR</h1>
-        <p>
-            <span class="mr-5 bg-success">Margin Right 5</span>Lorem ipsum dolor sit amet . Aliquam ducimus aliquid
-            <span class="ml-5 bg-success">Margin Left 3</span>
-        </p>
-
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- MX MARGIN LEFT RIGHT  -->
-        <h1 class="text-center">MX MARGIN LEFT RIGHT</h1>
-        <p>Lorem, ipsum.
-            <span class="mx-5 bg-success">Margin Left & Right 5</span>, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, architecto.
-        </p>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- MY MARGIN TOP BOTTOM  -->
-        <h1 class="text-center">MY MARGIN TOP BOTTOM</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ab.</p>
-        <p class="my-5 bg-success">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, qui.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, provident!</p>
-
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- BLANK- ALL SIDES -->
-        <h1 class="text-center">BLANK ALL SIDES</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, neque.</p>
-        <p class="m-5 bg-success">Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ut molestias itaque aliquam reiciendis nemo?</p>
-
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- PB PADDING BOTTOM  -->
-        <h1 class="text-center">PB PADDING BOTTOM</h1>
-        <br>
-        <p class="pb-0 bg-warning">Padding Bottom 0</p>
-        <p class="pb-1 bg-warning">Padding Bottom 1</p>
-        <p class="pb-2 bg-warning">Padding Bottom 2</p>
-        <p class="pb-3 bg-warning">Padding Bottom 3</p>
-        <p class="pb-4 bg-warning">Padding Bottom 4</p>
-        <p class="pb-5 bg-warning">Padding Bottom 5</p>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- PT PADDING TOP  -->
-        <h1 class="text-center">PT PADDING TOP</h1>
-        <br>
-        <p class="pt-0 bg-warning">Padding Top 0</p>
-        <p class="pt-1 bg-warning">Padding Top 1</p>
-        <p class="pt-2 bg-warning">Padding Top 2</p>
-        <p class="pt-3 bg-warning">Padding Top 3</p>
-        <p class="pt-4 bg-warning">Padding Top 4</p>
-        <p class="pt-5 bg-warning">Padding Top 5</p>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- PL & PR  -->
-        <h1 class="text-center">PL & PR</h1>
-        <p>
-            <span class="bg-warning pr-5" style="padding-right: 5rem;">Padding Right 5</span> Lorem ipsum dolor sit amet.
-            <span class="bg-warning" style="padding-left: 3rem;">Padding left 3</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nihil.
-        </p>
-        
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- PX PADDING LEFT RIGHT  -->
-        <h1 class="text-center">PX PADDING LEFT RIGHT</h1>
-        <p>Lorem, ipsum.
-            <span class="bg-warning px-5">Padding left & right</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, pariatur.
-        </p>
+        <div class="row g-3">
+            <div class="col-sm-7">
+              <input type="text" class="form-control" placeholder="City" aria-label="City">
+            </div>
+            <div class="col-sm">
+              <input type="text" class="form-control" placeholder="State" aria-label="State">
+            </div>
+            <div class="col-sm">
+              <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+            </div>
+          </div>
 
 
         <br>
@@ -225,28 +234,35 @@
         <br>
 
 
-        <!-- PY PADDING TOP BOTTOM  -->
-        <h1 class="text-center">PY PADDING TOP BOTTOM</h1>
-        <p class="bg-warning py-5">Padding Top & Bottom 5</p>
+        <!-- VALIDATION  -->
+        <h1 class="text-center">VALIDATION</h1>
+        <div class="input-group mb-3">
+            <label class="form-label me-3" for="username">Username</label>
+            <input class="form-control is-valid" type="text" id="username">
+        </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
+        <div class="input-group mb-3">
+            <label class="form-label me-3" for="password">Password</label>
+            <input class="form-control is-invalid" type="text" id="password">
+            <div class="invalid-feedback">
+                Password not strong enough
+            </div>
+        </div>
 
-
-        <!-- ALL SIDES  -->
-        <h1 class="text-center">ALL SIDES</h1>
-        <P class="bg-warning p-5">Padding all sides 5</P>
-
-        <br> 
+        <div class="input-group">
+            <label class="form-label me-3" for="password2">Confirm Password</label>
+            <input class="form-control is-invalid" type="text" id="password">
+            <div class="invalid-feedback">
+                Password does not match
+            </div>
+        </div>
+    
         <br>
         <br>
         <br>
-
-        <!-- HORIZONTAL CENTERING  -->
-        <h1 class="text-center">HORIZONTAL CENTERING</h1>
-        <div class="bg-info text-center" >Horizontal Centering </div>
+        <br>
+        <br>
+        <br>
     </div>
     
 
